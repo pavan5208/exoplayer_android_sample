@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "exoplayer_android_sample"
