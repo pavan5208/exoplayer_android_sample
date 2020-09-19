@@ -10,8 +10,14 @@
     <com.google.android.exoplayer2.ui.PlayerView
         android:id="@+id/video_player_view"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
+        app:rewind_increment="10000"
+        app:fastforward_increment="10000"
+        app:auto_show="true"
+        app:surface_type="surface_view"
+        app:use_controller="true"
+        app:controller_layout_id="@layout/layout_exoplayer_control_views"
         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
